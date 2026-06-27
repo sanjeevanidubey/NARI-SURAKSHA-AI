@@ -1,0 +1,220 @@
+{
+  "feature": "hour",
+  "threshold": 5.5,
+  "left": {
+    "feature": "crime_history_score",
+    "threshold": 37.64950688685618,
+    "left": {
+      "feature": "lighting_quality",
+      "threshold": 50.50140723072178,
+      "left": {
+        "feature": "crowd_density",
+        "threshold": 75.65829936082997,
+        "left": {
+          "feature": "recent_incidents",
+          "threshold": 2.5,
+          "left": {
+            "value": 66.85686926535428
+          },
+          "right": {
+            "value": 80.35938791958858
+          }
+        },
+        "right": {
+          "feature": "crime_history_score",
+          "threshold": 12.442574449053529,
+          "left": {
+            "value": 39.88348830055292
+          },
+          "right": {
+            "value": 53.08483159600529
+          }
+        }
+      },
+      "right": {
+        "feature": "crowd_density",
+        "threshold": 30.053729919430836,
+        "left": {
+          "feature": "recent_incidents",
+          "threshold": 0.5,
+          "left": {
+            "value": 51.76975331120914
+          },
+          "right": {
+            "value": 64.89196624011592
+          }
+        },
+        "right": {
+          "feature": "recent_incidents",
+          "threshold": 2.5,
+          "left": {
+            "value": 38.71532946166019
+          },
+          "right": {
+            "value": 51.861413107804886
+          }
+        }
+      }
+    },
+    "right": {
+      "feature": "lighting_quality",
+      "threshold": 45.49739943434669,
+      "left": {
+        "feature": "crowd_density",
+        "threshold": 67.74459527853284,
+        "left": {
+          "feature": "crime_history_score",
+          "threshold": 41.606357583435035,
+          "left": {
+            "value": 80.9211317068292
+          },
+          "right": {
+            "value": 94.24954456327987
+          }
+        },
+        "right": {
+          "feature": "recent_incidents",
+          "threshold": 0.5,
+          "left": {
+            "value": 64.04716944231596
+          },
+          "right": {
+            "value": 84.96586362820996
+          }
+        }
+      },
+      "right": {
+        "feature": "crime_history_score",
+        "threshold": 51.40753055800796,
+        "left": {
+          "feature": "lighting_quality",
+          "threshold": 57.2282885489701,
+          "left": {
+            "value": 79.56505173270587
+          },
+          "right": {
+            "value": 57.7210794304758
+          }
+        },
+        "right": {
+          "feature": "recent_incidents",
+          "threshold": 1.5,
+          "left": {
+            "value": 66.54703782531153
+          },
+          "right": {
+            "value": 77.92045944116607
+          }
+        }
+      }
+    }
+  },
+  "right": {
+    "feature": "hour",
+    "threshold": 20.5,
+    "left": {
+      "feature": "crime_history_score",
+      "threshold": 49.396781279248636,
+      "left": {
+        "feature": "lighting_quality",
+        "threshold": 50.67445603117334,
+        "left": {
+          "feature": "crowd_density",
+          "threshold": 55.60990922981178,
+          "left": {
+            "value": 46.61924331987016
+          },
+          "right": {
+            "value": 31.04118505485837
+          }
+        },
+        "right": {
+          "feature": "recent_incidents",
+          "threshold": 2.5,
+          "left": {
+            "value": 15.719838669411953
+          },
+          "right": {
+            "value": 30.14179914963701
+          }
+        }
+      },
+      "right": {
+        "feature": "lighting_quality",
+        "threshold": 41.096504180186315,
+        "left": {
+          "feature": "recent_incidents",
+          "threshold": 3.5,
+          "left": {
+            "value": 57.26775579485417
+          },
+          "right": {
+            "value": 71.39315256392965
+          }
+        },
+        "right": {
+          "feature": "crowd_density",
+          "threshold": 53.97405713863847,
+          "left": {
+            "value": 48.757050908673925
+          },
+          "right": {
+            "value": 36.455998697220735
+          }
+        }
+      }
+    },
+    "right": {
+      "feature": "crime_history_score",
+      "threshold": 45.024905040046335,
+      "left": {
+        "feature": "lighting_quality",
+        "threshold": 73.56861921141274,
+        "left": {
+          "feature": "crowd_density",
+          "threshold": 57.62584566010394,
+          "left": {
+            "value": 75.7973906407029
+          },
+          "right": {
+            "value": 53.099962545966505
+          }
+        },
+        "right": {
+          "feature": "crime_history_score",
+          "threshold": 11.569227411842558,
+          "left": {
+            "value": 25.089588260220484
+          },
+          "right": {
+            "value": 49.6048430317992
+          }
+        }
+      },
+      "right": {
+        "feature": "lighting_quality",
+        "threshold": 45.47197799252923,
+        "left": {
+          "feature": "crowd_density",
+          "threshold": 40.63364538936605,
+          "left": {
+            "value": 95.01731801905845
+          },
+          "right": {
+            "value": 81.56860748872504
+          }
+        },
+        "right": {
+          "feature": "crowd_density",
+          "threshold": 59.560757254660274,
+          "left": {
+            "value": 75.53305283604384
+          },
+          "right": {
+            "value": 60.70595115655695
+          }
+        }
+      }
+    }
+  }
+}
