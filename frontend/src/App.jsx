@@ -222,6 +222,23 @@ const ShieldHeartIllustration = () => (
   </svg>
 );
 
+// Force all underlying network and fetch operations to target Render
+const LIVE_BACKEND_URL = "https://nari-suraksha-ai.onrender.com";
+
+if (typeof window !== 'undefined') {
+  const originalFetch = window.fetch;
+  window.fetch = async function (url, options) {
+    let targetUrl = url;
+    if (typeof url === 'string') {
+      if (url.startsWith('/')) {
+        targetUrl = LIVE_BACKEND_URL + url;
+      } else if (!url.startsWith('http') && !url.startsWith('https')) {
+        targetUrl = LIVE_BACKEND_URL + '/' + url;
+      }
+    }
+    return originalFetch(targetUrl, options);
+  };
+}
 
 export default function App() {
   // --- States ---
